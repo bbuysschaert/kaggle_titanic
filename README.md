@@ -12,7 +12,7 @@ This exercise has not the goal of having the best predictions possible...
 
 
 ## To do:
-- [] Update and include requirements.txt
+- [ ] Update and include requirements.txt
 - [] Clean the code of the basicpython folder
 - [] Transition from function-based code to OOP and include an sklearnpipeline
 - [] Transition from Python to PySpark for the data preparation
