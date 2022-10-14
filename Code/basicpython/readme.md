@@ -7,7 +7,7 @@ The following data preparation tasks are considered
         - [X] Sex
         - [X] Embarked
         - [ ] Cabin
-        
+
 - [ ] Imputation of missing values: v1 with `KNNImputer`
 
         - [X] Age
@@ -15,10 +15,9 @@ The following data preparation tasks are considered
         - [ ] Embarked
 
 - [ ] Creation of new features
-
-        - [X] Agegroup
-        - [X] Familysize
-        - [X] haschildren: contains some edgecases that are not correctly covered
-        - [X] hasparents: contains some edgecases that are not correctly covered
-        - [X] hasspouse: contains some edgecases that are not correctly covered
-        - [X] issinglechild
+    - [X] Agegroup
+    - [X] Familysize
+    - [X] haschildren: contains some edgecases that are not correctly covered
+    - [X] hasparents: contains some edgecases that are not correctly covered
+    - [X] hasspouse: contains some edgecases that are not correctly covered
+    - [X] issinglechild
