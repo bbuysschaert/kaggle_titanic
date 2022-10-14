@@ -3,14 +3,19 @@ Function-based approach to perform the data preparation tasks.  All functions ar
 
 The following data preparation tasks are considered
 - [ ] Label encoding of non-numerical values:  v1 with hard-coded logic and no `LabelEncoder`
+
         - [X] Sex
         - [X] Embarked
         - [ ] Cabin
+        
 - [ ] Imputation of missing values: v1 with `KNNImputer`
+
         - [X] Age
         - [ ] Cabin
         - [ ] Embarked
+
 - [ ] Creation of new features
+
         - [X] Agegroup
         - [X] Familysize
         - [X] haschildren: contains some edgecases that are not correctly covered
