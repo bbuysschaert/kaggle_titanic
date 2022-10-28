@@ -339,8 +339,8 @@ if __name__ == '__main__':
     file_pred = ''
 
     # Extract
-    df_train = pd.read_csv(file_train, sep=',')
-    df_test = pd.read_csv(file_test, sep=',')
+    df_train = pd.read_csv(file_train, sep=',', header='infer', index_col='PassengerId')
+    df_test = pd.read_csv(file_test, sep=',', header='infer', index_col='PassengerId')
 
     # Transform
     df_train, enc_train = dataprep_titanic(df_train)
