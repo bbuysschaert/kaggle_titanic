@@ -13,11 +13,11 @@ This exercise has not the goal of having the best predictions possible...
 
 ## To do:
 - [X] Have basic workflow for the predictions in function-based code
-- [ ] Update and include requirements.txt
+- [X] Update and include requirements.txt
 - [ ] Clean the code of the basicpython folder
 - [ ] Transition from function-based code to OOP and include an sklearnpipeline
 - [ ] Transition from Python to PySpark for the data preparation
-- [ ] Set up an mlflow environment and include logging of the experiments
+- [X] Set up an mlflow environment and include logging of the experiments (local mlflow)
 - [ ] Try different ML models and log these as different experiments
 - [ ] Include hyperparameter optimizations and log these
 - [ ] Include documentation in Sphinx or the like
